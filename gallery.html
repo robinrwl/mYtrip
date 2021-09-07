@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+     <link rel="icon" href="/favicon_io (1)/favicon.ico" type="image/gif" sizes="16x16">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>mYtrip</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+          <img style="width: 90px; height: 35px;" src="Untitled.png" alt="Compny Logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+              <li class="nav-item">
+                <a class="nav-link active mx-3" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact Us.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/gallery.html">Gallery</a>
+              </li>
+              
+                </a>
+                
+              
+            </ul>
+            
+            <div class="mx-2">
+              <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+              <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#SingUpModal">Sing Up</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- login modal -->
+  
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="logineModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Lofing to mYsite</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Signup modal -->
+  <div class="modal fade" id="SingUpModal" tabindex="-1" aria-labelledby="SingUpModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="SingUpModalLabel">Get an mYsite account</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputName" class="form-label">Enter your Name</label>
+              <input type="email" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+              <div id="nameHelp" class="form-text">We'll never share your details with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your details with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="cexampleInputPassword1" class="form-label"> Confirm Password</label>
+              <input type="password" class="form-control" id="cexampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gallery code starts from here  -->
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+        <div class="col">
+
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/G3.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card shadow-sm">
+                <img src="/Photo gallrey/R5.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="card shadow-sm">
+            <img src="/Photo gallrey/MY2.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/MR.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/G2.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/R2.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/G1.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="card shadow-sm">
+            <img src="/Photo gallrey/WL5.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+          </div>
+          <div class="card shadow-sm">
+            <img src="/Photo gallrey/MY1.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+          </div>
+        <div class="col">
+          <div class="card shadow-sm">
+              <img src="/Photo gallrey/M1.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/Photo gallrey/M2.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/Photo gallrey/M3.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+          </div>
+        </div> 
+        <div class="card shadow-sm">
+            <img src="/Photo gallrey/WL3.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+          </div>
+        <div class="col">
+            <div class="card shadow-sm">
+                <img src="/Photo gallrey/M4.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/K1.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/K3.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+                <img src="/Photo gallrey/K2.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="card shadow-sm">
+            <img src="/Photo gallrey/WL8.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/K4.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/R1.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+                <img src="/Photo gallrey/F.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/R3.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="card shadow-sm">
+            <img src="/Photo gallrey/WL7.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/R4.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+                <img src="/Photo gallrey/U1.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/U2.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/U3.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/G2.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+           <div class="col">
+            <div class="card shadow-sm">
+                <img src="/Photo gallrey/U4.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/R6.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/G5.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div> <div class="col">
+            <div class="card shadow-sm">
+                <img src="/Photo gallrey/A4.jpeg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/A5.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/WL2.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Photo gallrey/WL4.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+            </div>
+          </div>
+          <div class="card shadow-sm">
+            <img src="/Photo gallrey/R7.jpg" alt="" class="bd-placeholder-img card-img-top" width="300" height="300" >
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Gallery ends here -->
+
+  <footer class="container my-5 " >
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>© 2017–2021 mYtrip Pvt.Ltd.<a href="#">Privacy</a> · <a href="#">Terms</a></p>
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
